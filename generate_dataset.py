@@ -122,7 +122,7 @@ _FMT_POOL = {
         "Calculate {x} + {y}.",
     ],
 
-    # ── Multiplication (superset of Google templates) ───────────────
+    # ── Multiplication - superset of Google's mathematics dataset templates (arithmetic module) ───────────────
     "multiplication": [
         # bare expressions
         "{x}*{y}{m}",
@@ -148,7 +148,7 @@ _FMT_POOL = {
         "Find the result of {x} multiplied by {y}{m}.",
     ],
 
-    # ─────────────── DIVISION ─────────────
+    # ───────────── DIVISION ─────────────
     "division": [
         "{x}//{y}",
         "{x} // {y}",
@@ -170,7 +170,7 @@ _FMT_POOL = {
         "Compute {x} mod {y}.",
     ],
 
-    # ──────────────── GCD ─────────────────
+    # ──────────────── GCD ────────────────
     "gcd": [
         "gcd({x}, {y})",
         "GCD({x}, {y})",
@@ -180,7 +180,7 @@ _FMT_POOL = {
         "Compute GCD({x}, {y}).",
     ],
 
-    # ──────────────── LCM ─────────────────
+    # ──────────────── LCM ────────────────
     "lcm": [
         "Find lcm({x}, {y}){m}.",
         "What is the least common multiple of {x} and {y}{m}?",
@@ -189,7 +189,7 @@ _FMT_POOL = {
         "Compute the least common multiple of {x} and {y}{m}.",
     ],
 
-    # ───────────── SQUARE MOD ─────────────
+    # ─────────── SQUARE MOD ─────────────
     "square_mod": [
         "{x}^2 mod {y}",
         "({x}^2) mod {y}",
@@ -198,7 +198,7 @@ _FMT_POOL = {
         "Compute {x} squared modulo {y}.",
     ],
 
-    # ───────────── BITWISE AND ────────────
+    # ─────────── BITWISE AND ────────────
     "bitwise_and": [
         "{x} & {y}",
         "{x}&{y}",
@@ -208,7 +208,7 @@ _FMT_POOL = {
         "What is {x} AND {y}?",
     ],
 
-    # ───────────── BITWISE OR ─────────────
+    # ─────────── BITWISE OR ─────────────
     "bitwise_or": [
         "{x} | {y}",
         "{x}|{y}",
@@ -218,7 +218,7 @@ _FMT_POOL = {
         "What is {x} OR {y}?",
     ],
 
-    # ───────────── BITWISE XOR ────────────
+    # ─────────── BITWISE XOR ────────────
     "bitwise_xor": [
         "{x} ^ {y}",
         "{x}^{y}",
@@ -228,7 +228,7 @@ _FMT_POOL = {
         "What is {x} XOR {y}?",
     ],
 
-    # ───────────── BITWISE NOR ────────────
+    # ─────────── BITWISE NOR ────────────
     "bitwise_nor": [
         "{x} NOR {y}",
         "Bitwise NOR of {x} and {y}.",
@@ -237,7 +237,7 @@ _FMT_POOL = {
         "What is {x} NOR {y}?",
     ],
 
-    # ───────────── BITWISE NAND ───────────
+    # ─────────── BITWISE NAND ───────────
     "bitwise_nand": [
         "{x} NAND {y}",
         "Bitwise NAND of {x} and {y}.",
@@ -246,7 +246,7 @@ _FMT_POOL = {
         "What is {x} NAND {y}?",
     ],
 
-    # ───────────── BITWISE NXOR ───────────
+    # ─────────── BITWISE NXOR ───────────
     "bitwise_nxor": [
         "{x} NXOR {y}",
         "{x} XNOR {y}",
