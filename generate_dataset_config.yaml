@@ -1,0 +1,23 @@
+# === Paths ===
+curr_dir : "~/Symbolic-Math-Dataset"
+
+# === Data Collection ===
+possible_problems:
+  - addition
+  - multiplication
+  - division
+  - modulo
+  - gcd
+  - lcm
+  - square_mod
+  - bitwise_and
+  - bitwise_xor
+  - bitwise_or
+complexity: 2
+n_samples_dataset: 1000000
+train_data_rounds: 10000
+val_data_rounds  : 100
+test_data_rounds : 1000
+string_nums: False
+limit_solution_digits: True
+modify_question_format: False

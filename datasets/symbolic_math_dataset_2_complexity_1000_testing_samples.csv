@@ -1,0 +1,1001 @@
+problem_type,x,y,question,solution
+addition,65,938,What is 65 plus 938?,1003
+multiplication,328,621,What is 328 times 621 mod 1000?,688
+addition,603,235,What is 603 plus 235?,838
+division,300,128,What is 300 // 128?,2
+lcm,648,714,What is the LCM of 648 and 714 mod 1000?,112
+bitwise_xor,931,241,What is 931 XOR 241?,850
+multiplication,341,98,What is 341 times 98 mod 1000?,418
+square_mod,998,685,What is 998^2 mod 685?,14
+bitwise_and,160,344,What is 160 AND 344?,0
+gcd,620,401,What is the GCD of 620 and 401?,1
+square_mod,188,20,What is 188^2 mod 20?,4
+lcm,656,940,What is the LCM of 656 and 940 mod 1000?,160
+lcm,420,492,What is the LCM of 420 and 492 mod 1000?,220
+modulo,669,581,What is 669 mod 581?,88
+bitwise_xor,757,760,What is 757 XOR 760?,13
+bitwise_xor,478,900,What is 478 XOR 900?,602
+addition,890,89,What is 890 plus 89?,979
+bitwise_xor,967,54,What is 967 XOR 54?,1009
+modulo,858,88,What is 858 mod 88?,66
+bitwise_and,476,830,What is 476 AND 830?,284
+multiplication,303,78,What is 303 times 78 mod 1000?,634
+division,492,120,What is 492 // 120?,4
+gcd,65,568,What is the GCD of 65 and 568?,1
+division,778,106,What is 778 // 106?,7
+bitwise_and,994,205,What is 994 AND 205?,192
+bitwise_xor,214,318,What is 214 XOR 318?,488
+square_mod,839,539,What is 839^2 mod 539?,526
+bitwise_xor,383,826,What is 383 XOR 826?,581
+modulo,901,691,What is 901 mod 691?,210
+bitwise_and,234,643,What is 234 AND 643?,130
+gcd,535,534,What is the GCD of 535 and 534?,1
+addition,921,839,What is 921 plus 839?,1760
+modulo,144,143,What is 144 mod 143?,1
+modulo,636,12,What is 636 mod 12?,0
+square_mod,280,109,What is 280^2 mod 109?,29
+bitwise_or,689,510,What is 689 OR 510?,1023
+multiplication,363,676,What is 363 times 676 mod 1000?,388
+modulo,418,48,What is 418 mod 48?,34
+gcd,272,341,What is the GCD of 272 and 341?,1
+lcm,470,454,What is the LCM of 470 and 454 mod 1000?,690
+modulo,600,390,What is 600 mod 390?,210
+division,507,225,What is 507 // 225?,2
+bitwise_xor,859,873,What is 859 XOR 873?,50
+multiplication,46,331,What is 46 times 331 mod 1000?,226
+multiplication,17,173,What is 17 times 173 mod 1000?,941
+multiplication,649,650,What is 649 times 650 mod 1000?,850
+bitwise_or,888,822,What is 888 OR 822?,894
+lcm,104,704,What is the LCM of 104 and 704 mod 1000?,152
+modulo,23,5,What is 23 mod 5?,3
+square_mod,583,333,What is 583^2 mod 333?,229
+bitwise_or,110,135,What is 110 OR 135?,239
+square_mod,341,309,What is 341^2 mod 309?,97
+bitwise_and,542,326,What is 542 AND 326?,6
+square_mod,702,472,What is 702^2 mod 472?,36
+bitwise_and,57,89,What is 57 AND 89?,25
+lcm,453,789,What is the LCM of 453 and 789 mod 1000?,139
+addition,424,521,What is 424 plus 521?,945
+square_mod,232,193,What is 232^2 mod 193?,170
+square_mod,571,48,What is 571^2 mod 48?,25
+gcd,753,585,What is the GCD of 753 and 585?,3
+division,996,197,What is 996 // 197?,5
+bitwise_or,998,452,What is 998 OR 452?,998
+addition,843,628,What is 843 plus 628?,1471
+square_mod,256,67,What is 256^2 mod 67?,10
+square_mod,442,261,What is 442^2 mod 261?,136
+modulo,672,74,What is 672 mod 74?,6
+modulo,743,558,What is 743 mod 558?,185
+bitwise_and,887,18,What is 887 AND 18?,18
+bitwise_or,544,283,What is 544 OR 283?,827
+square_mod,617,567,What is 617^2 mod 567?,232
+bitwise_or,564,114,What is 564 OR 114?,630
+bitwise_or,331,304,What is 331 OR 304?,379
+bitwise_or,968,667,What is 968 OR 667?,987
+bitwise_or,763,847,What is 763 OR 847?,1023
+lcm,970,72,What is the LCM of 970 and 72 mod 1000?,920
+gcd,842,817,What is the GCD of 842 and 817?,1
+bitwise_xor,560,718,What is 560 XOR 718?,254
+bitwise_or,207,70,What is 207 OR 70?,207
+bitwise_xor,963,978,What is 963 XOR 978?,17
+lcm,574,552,What is the LCM of 574 and 552 mod 1000?,424
+division,188,69,What is 188 // 69?,2
+addition,431,102,What is 431 plus 102?,533
+bitwise_xor,534,235,What is 534 XOR 235?,765
+gcd,683,182,What is the GCD of 683 and 182?,1
+square_mod,828,395,What is 828^2 mod 395?,259
+addition,417,309,What is 417 plus 309?,726
+lcm,560,448,What is the LCM of 560 and 448 mod 1000?,240
+square_mod,724,2,What is 724^2 mod 2?,0
+bitwise_and,590,529,What is 590 AND 529?,512
+bitwise_xor,255,410,What is 255 XOR 410?,357
+lcm,595,19,What is the LCM of 595 and 19 mod 1000?,305
+modulo,970,411,What is 970 mod 411?,148
+bitwise_and,272,101,What is 272 AND 101?,0
+division,419,69,What is 419 // 69?,6
+addition,854,777,What is 854 plus 777?,1631
+division,596,595,What is 596 // 595?,1
+square_mod,731,299,What is 731^2 mod 299?,48
+modulo,987,464,What is 987 mod 464?,59
+lcm,775,796,What is the LCM of 775 and 796 mod 1000?,900
+lcm,800,533,What is the LCM of 800 and 533 mod 1000?,400
+addition,249,490,What is 249 plus 490?,739
+modulo,418,370,What is 418 mod 370?,48
+addition,326,556,What is 326 plus 556?,882
+division,551,523,What is 551 // 523?,1
+modulo,73,42,What is 73 mod 42?,31
+lcm,443,31,What is the LCM of 443 and 31 mod 1000?,733
+bitwise_or,94,354,What is 94 OR 354?,382
+gcd,327,259,What is the GCD of 327 and 259?,1
+bitwise_and,176,949,What is 176 AND 949?,176
+bitwise_or,733,373,What is 733 OR 373?,1021
+modulo,726,441,What is 726 mod 441?,285
+bitwise_or,291,270,What is 291 OR 270?,303
+bitwise_xor,545,709,What is 545 XOR 709?,228
+bitwise_and,281,285,What is 281 AND 285?,281
+square_mod,73,43,What is 73^2 mod 43?,40
+gcd,338,840,What is the GCD of 338 and 840?,2
+division,184,165,What is 184 // 165?,1
+division,908,205,What is 908 // 205?,4
+gcd,651,404,What is the GCD of 651 and 404?,1
+modulo,966,186,What is 966 mod 186?,36
+lcm,147,353,What is the LCM of 147 and 353 mod 1000?,891
+modulo,592,277,What is 592 mod 277?,38
+bitwise_xor,545,531,What is 545 XOR 531?,50
+bitwise_or,106,97,What is 106 OR 97?,107
+lcm,453,900,What is the LCM of 453 and 900 mod 1000?,900
+bitwise_xor,543,417,What is 543 XOR 417?,958
+gcd,794,124,What is the GCD of 794 and 124?,2
+bitwise_and,226,539,What is 226 AND 539?,2
+lcm,355,145,What is the LCM of 355 and 145 mod 1000?,295
+square_mod,468,368,What is 468^2 mod 368?,64
+bitwise_xor,714,977,What is 714 XOR 977?,283
+addition,800,800,What is 800 plus 800?,1600
+bitwise_and,459,517,What is 459 AND 517?,1
+square_mod,822,805,What is 822^2 mod 805?,289
+bitwise_and,866,917,What is 866 AND 917?,768
+multiplication,834,828,What is 834 times 828 mod 1000?,552
+bitwise_or,952,379,What is 952 OR 379?,1019
+bitwise_and,532,703,What is 532 AND 703?,532
+square_mod,918,336,What is 918^2 mod 336?,36
+multiplication,703,279,What is 703 times 279 mod 1000?,137
+lcm,10,738,What is the LCM of 10 and 738 mod 1000?,690
+lcm,386,326,What is the LCM of 386 and 326 mod 1000?,918
+modulo,410,297,What is 410 mod 297?,113
+square_mod,477,56,What is 477^2 mod 56?,1
+gcd,73,102,What is the GCD of 73 and 102?,1
+square_mod,818,291,What is 818^2 mod 291?,115
+multiplication,286,19,What is 286 times 19 mod 1000?,434
+square_mod,490,135,What is 490^2 mod 135?,70
+division,875,659,What is 875 // 659?,1
+square_mod,967,615,What is 967^2 mod 615?,289
+division,536,464,What is 536 // 464?,1
+modulo,700,487,What is 700 mod 487?,213
+bitwise_or,580,699,What is 580 OR 699?,767
+division,947,291,What is 947 // 291?,3
+square_mod,891,672,What is 891^2 mod 672?,249
+addition,797,86,What is 797 plus 86?,883
+multiplication,78,406,What is 78 times 406 mod 1000?,668
+modulo,258,148,What is 258 mod 148?,110
+division,356,38,What is 356 // 38?,9
+bitwise_and,241,397,What is 241 AND 397?,129
+division,602,328,What is 602 // 328?,1
+square_mod,310,242,What is 310^2 mod 242?,26
+addition,680,265,What is 680 plus 265?,945
+addition,921,210,What is 921 plus 210?,1131
+division,590,524,What is 590 // 524?,1
+multiplication,721,186,What is 721 times 186 mod 1000?,106
+bitwise_xor,796,982,What is 796 XOR 982?,202
+multiplication,738,369,What is 738 times 369 mod 1000?,322
+square_mod,509,508,What is 509^2 mod 508?,1
+division,203,3,What is 203 // 3?,67
+square_mod,356,49,What is 356^2 mod 49?,22
+multiplication,834,6,What is 834 times 6 mod 1000?,4
+bitwise_and,285,980,What is 285 AND 980?,276
+square_mod,621,537,What is 621^2 mod 537?,75
+gcd,753,540,What is the GCD of 753 and 540?,3
+division,572,218,What is 572 // 218?,2
+division,985,488,What is 985 // 488?,2
+modulo,572,459,What is 572 mod 459?,113
+bitwise_or,54,58,What is 54 OR 58?,62
+addition,829,263,What is 829 plus 263?,1092
+division,979,619,What is 979 // 619?,1
+division,908,297,What is 908 // 297?,3
+modulo,823,440,What is 823 mod 440?,383
+gcd,353,47,What is the GCD of 353 and 47?,1
+gcd,882,756,What is the GCD of 882 and 756?,126
+bitwise_xor,559,152,What is 559 XOR 152?,695
+bitwise_and,861,776,What is 861 AND 776?,776
+multiplication,111,307,What is 111 times 307 mod 1000?,77
+modulo,814,733,What is 814 mod 733?,81
+square_mod,100,16,What is 100^2 mod 16?,0
+gcd,531,151,What is the GCD of 531 and 151?,1
+lcm,742,698,What is the LCM of 742 and 698 mod 1000?,958
+lcm,802,936,What is the LCM of 802 and 936 mod 1000?,336
+gcd,260,723,What is the GCD of 260 and 723?,1
+lcm,662,807,What is the LCM of 662 and 807 mod 1000?,234
+bitwise_or,979,402,What is 979 OR 402?,979
+modulo,669,309,What is 669 mod 309?,51
+lcm,593,789,What is the LCM of 593 and 789 mod 1000?,877
+modulo,935,904,What is 935 mod 904?,31
+bitwise_or,983,488,What is 983 OR 488?,1023
+modulo,912,458,What is 912 mod 458?,454
+division,659,305,What is 659 // 305?,2
+gcd,551,202,What is the GCD of 551 and 202?,1
+bitwise_xor,282,876,What is 282 XOR 876?,630
+bitwise_xor,654,224,What is 654 XOR 224?,622
+lcm,302,773,What is the LCM of 302 and 773 mod 1000?,446
+gcd,760,628,What is the GCD of 760 and 628?,4
+gcd,157,279,What is the GCD of 157 and 279?,1
+square_mod,873,565,What is 873^2 mod 565?,509
+bitwise_or,280,831,What is 280 OR 831?,831
+gcd,973,361,What is the GCD of 973 and 361?,1
+bitwise_or,872,639,What is 872 OR 639?,895
+bitwise_and,126,742,What is 126 AND 742?,102
+bitwise_xor,609,657,What is 609 XOR 657?,240
+lcm,352,530,What is the LCM of 352 and 530 mod 1000?,280
+modulo,679,116,What is 679 mod 116?,99
+modulo,670,29,What is 670 mod 29?,3
+gcd,816,373,What is the GCD of 816 and 373?,1
+gcd,463,660,What is the GCD of 463 and 660?,1
+bitwise_and,249,842,What is 249 AND 842?,72
+bitwise_xor,882,294,What is 882 XOR 294?,596
+modulo,864,661,What is 864 mod 661?,203
+gcd,111,51,What is the GCD of 111 and 51?,3
+division,878,69,What is 878 // 69?,12
+gcd,729,117,What is the GCD of 729 and 117?,9
+square_mod,923,232,What is 923^2 mod 232?,25
+bitwise_and,822,120,What is 822 AND 120?,48
+lcm,313,31,What is the LCM of 313 and 31 mod 1000?,703
+modulo,379,104,What is 379 mod 104?,67
+gcd,146,796,What is the GCD of 146 and 796?,2
+bitwise_xor,201,54,What is 201 XOR 54?,255
+modulo,716,251,What is 716 mod 251?,214
+bitwise_xor,109,600,What is 109 XOR 600?,565
+multiplication,32,25,What is 32 times 25 mod 1000?,800
+bitwise_and,905,417,What is 905 AND 417?,385
+square_mod,375,301,What is 375^2 mod 301?,58
+lcm,967,157,What is the LCM of 967 and 157 mod 1000?,819
+bitwise_or,115,655,What is 115 OR 655?,767
+bitwise_or,502,95,What is 502 OR 95?,511
+multiplication,792,685,What is 792 times 685 mod 1000?,520
+addition,818,777,What is 818 plus 777?,1595
+bitwise_or,199,209,What is 199 OR 209?,215
+bitwise_and,982,519,What is 982 AND 519?,518
+multiplication,390,130,What is 390 times 130 mod 1000?,700
+division,565,423,What is 565 // 423?,1
+bitwise_or,939,951,What is 939 OR 951?,959
+modulo,65,1,What is 65 mod 1?,0
+addition,724,166,What is 724 plus 166?,890
+modulo,946,324,What is 946 mod 324?,298
+multiplication,968,740,What is 968 times 740 mod 1000?,320
+bitwise_xor,584,788,What is 584 XOR 788?,348
+division,521,3,What is 521 // 3?,173
+gcd,84,656,What is the GCD of 84 and 656?,4
+multiplication,8,608,What is 8 times 608 mod 1000?,864
+bitwise_xor,401,474,What is 401 XOR 474?,75
+bitwise_xor,721,485,What is 721 XOR 485?,820
+lcm,448,374,What is the LCM of 448 and 374 mod 1000?,776
+bitwise_xor,614,548,What is 614 XOR 548?,66
+bitwise_and,413,15,What is 413 AND 15?,13
+division,698,505,What is 698 // 505?,1
+bitwise_and,883,549,What is 883 AND 549?,545
+lcm,739,559,What is the LCM of 739 and 559 mod 1000?,101
+bitwise_and,253,980,What is 253 AND 980?,212
+bitwise_and,737,228,What is 737 AND 228?,224
+division,89,50,What is 89 // 50?,1
+modulo,819,373,What is 819 mod 373?,73
+bitwise_xor,361,719,What is 361 XOR 719?,934
+bitwise_xor,193,838,What is 193 XOR 838?,903
+bitwise_and,658,642,What is 658 AND 642?,642
+square_mod,814,247,What is 814^2 mod 247?,142
+bitwise_and,636,493,What is 636 AND 493?,108
+bitwise_xor,987,949,What is 987 XOR 949?,110
+modulo,772,630,What is 772 mod 630?,142
+lcm,879,587,What is the LCM of 879 and 587 mod 1000?,973
+bitwise_xor,67,716,What is 67 XOR 716?,655
+bitwise_and,828,570,What is 828 AND 570?,568
+gcd,146,128,What is the GCD of 146 and 128?,2
+addition,744,303,What is 744 plus 303?,1047
+bitwise_xor,923,325,What is 923 XOR 325?,734
+bitwise_xor,410,3,What is 410 XOR 3?,409
+division,560,60,What is 560 // 60?,9
+bitwise_or,952,291,What is 952 OR 291?,955
+addition,966,280,What is 966 plus 280?,1246
+modulo,876,30,What is 876 mod 30?,6
+addition,525,14,What is 525 plus 14?,539
+division,266,230,What is 266 // 230?,1
+square_mod,759,357,What is 759^2 mod 357?,240
+bitwise_or,913,730,What is 913 OR 730?,987
+bitwise_and,946,894,What is 946 AND 894?,818
+addition,845,41,What is 845 plus 41?,886
+addition,943,463,What is 943 plus 463?,1406
+multiplication,901,245,What is 901 times 245 mod 1000?,745
+multiplication,160,534,What is 160 times 534 mod 1000?,440
+division,630,142,What is 630 // 142?,4
+bitwise_xor,116,147,What is 116 XOR 147?,231
+lcm,551,653,What is the LCM of 551 and 653 mod 1000?,803
+square_mod,484,336,What is 484^2 mod 336?,64
+bitwise_and,316,797,What is 316 AND 797?,284
+bitwise_or,537,280,What is 537 OR 280?,793
+gcd,488,759,What is the GCD of 488 and 759?,1
+addition,334,867,What is 334 plus 867?,1201
+bitwise_and,470,763,What is 470 AND 763?,210
+square_mod,440,343,What is 440^2 mod 343?,148
+lcm,602,848,What is the LCM of 602 and 848 mod 1000?,248
+gcd,264,584,What is the GCD of 264 and 584?,8
+lcm,486,164,What is the LCM of 486 and 164 mod 1000?,852
+lcm,228,479,What is the LCM of 228 and 479 mod 1000?,212
+addition,796,261,What is 796 plus 261?,1057
+bitwise_and,508,243,What is 508 AND 243?,240
+division,869,332,What is 869 // 332?,2
+modulo,948,262,What is 948 mod 262?,162
+bitwise_xor,987,138,What is 987 XOR 138?,849
+division,534,379,What is 534 // 379?,1
+division,966,544,What is 966 // 544?,1
+bitwise_or,772,381,What is 772 OR 381?,893
+gcd,979,285,What is the GCD of 979 and 285?,1
+bitwise_xor,815,979,What is 815 XOR 979?,252
+addition,682,449,What is 682 plus 449?,1131
+modulo,734,268,What is 734 mod 268?,198
+modulo,469,208,What is 469 mod 208?,53
+bitwise_xor,311,764,What is 311 XOR 764?,971
+bitwise_or,815,463,What is 815 OR 463?,1007
+lcm,607,705,What is the LCM of 607 and 705 mod 1000?,935
+square_mod,477,409,What is 477^2 mod 409?,125
+square_mod,935,325,What is 935^2 mod 325?,300
+division,598,167,What is 598 // 167?,3
+multiplication,791,251,What is 791 times 251 mod 1000?,541
+square_mod,381,346,What is 381^2 mod 346?,187
+bitwise_and,215,17,What is 215 AND 17?,17
+lcm,399,481,What is the LCM of 399 and 481 mod 1000?,919
+multiplication,779,834,What is 779 times 834 mod 1000?,686
+gcd,123,676,What is the GCD of 123 and 676?,1
+multiplication,990,385,What is 990 times 385 mod 1000?,150
+bitwise_and,921,628,What is 921 AND 628?,528
+lcm,432,77,What is the LCM of 432 and 77 mod 1000?,264
+gcd,950,762,What is the GCD of 950 and 762?,2
+multiplication,143,492,What is 143 times 492 mod 1000?,356
+modulo,765,198,What is 765 mod 198?,171
+modulo,949,682,What is 949 mod 682?,267
+bitwise_or,579,18,What is 579 OR 18?,595
+addition,192,227,What is 192 plus 227?,419
+gcd,37,322,What is the GCD of 37 and 322?,1
+division,990,423,What is 990 // 423?,2
+multiplication,745,16,What is 745 times 16 mod 1000?,920
+bitwise_xor,815,773,What is 815 XOR 773?,42
+bitwise_or,378,376,What is 378 OR 376?,378
+square_mod,715,118,What is 715^2 mod 118?,49
+modulo,833,462,What is 833 mod 462?,371
+bitwise_xor,349,871,What is 349 XOR 871?,570
+square_mod,385,275,What is 385^2 mod 275?,0
+division,902,526,What is 902 // 526?,1
+square_mod,383,111,What is 383^2 mod 111?,58
+gcd,83,471,What is the GCD of 83 and 471?,1
+bitwise_xor,10,394,What is 10 XOR 394?,384
+multiplication,88,67,What is 88 times 67 mod 1000?,896
+multiplication,43,202,What is 43 times 202 mod 1000?,686
+multiplication,747,107,What is 747 times 107 mod 1000?,929
+square_mod,73,14,What is 73^2 mod 14?,9
+modulo,905,68,What is 905 mod 68?,21
+division,721,613,What is 721 // 613?,1
+bitwise_xor,185,394,What is 185 XOR 394?,307
+bitwise_or,866,348,What is 866 OR 348?,894
+bitwise_or,948,74,What is 948 OR 74?,1022
+square_mod,499,438,What is 499^2 mod 438?,217
+addition,903,22,What is 903 plus 22?,925
+lcm,137,343,What is the LCM of 137 and 343 mod 1000?,991
+lcm,5,559,What is the LCM of 5 and 559 mod 1000?,795
+bitwise_or,662,992,What is 662 OR 992?,1014
+bitwise_and,447,307,What is 447 AND 307?,307
+lcm,3,322,What is the LCM of 3 and 322 mod 1000?,966
+gcd,342,204,What is the GCD of 342 and 204?,6
+square_mod,381,104,What is 381^2 mod 104?,81
+addition,92,116,What is 92 plus 116?,208
+addition,446,106,What is 446 plus 106?,552
+modulo,978,543,What is 978 mod 543?,435
+addition,67,150,What is 67 plus 150?,217
+multiplication,487,430,What is 487 times 430 mod 1000?,410
+bitwise_xor,353,597,What is 353 XOR 597?,820
+multiplication,943,94,What is 943 times 94 mod 1000?,642
+bitwise_or,716,316,What is 716 OR 316?,1020
+bitwise_and,536,576,What is 536 AND 576?,512
+gcd,676,182,What is the GCD of 676 and 182?,26
+multiplication,914,316,What is 914 times 316 mod 1000?,824
+modulo,926,115,What is 926 mod 115?,6
+lcm,376,864,What is the LCM of 376 and 864 mod 1000?,608
+bitwise_or,913,997,What is 913 OR 997?,1013
+bitwise_or,310,546,What is 310 OR 546?,822
+division,829,72,What is 829 // 72?,11
+square_mod,500,59,What is 500^2 mod 59?,17
+addition,116,23,What is 116 plus 23?,139
+lcm,576,516,What is the LCM of 576 and 516 mod 1000?,768
+bitwise_or,216,752,What is 216 OR 752?,760
+bitwise_or,993,542,What is 993 OR 542?,1023
+multiplication,841,596,What is 841 times 596 mod 1000?,236
+gcd,766,390,What is the GCD of 766 and 390?,2
+bitwise_or,504,247,What is 504 OR 247?,511
+modulo,665,470,What is 665 mod 470?,195
+gcd,266,360,What is the GCD of 266 and 360?,2
+division,402,303,What is 402 // 303?,1
+division,909,234,What is 909 // 234?,3
+gcd,258,340,What is the GCD of 258 and 340?,2
+gcd,258,381,What is the GCD of 258 and 381?,3
+gcd,505,550,What is the GCD of 505 and 550?,5
+modulo,935,590,What is 935 mod 590?,345
+bitwise_xor,657,264,What is 657 XOR 264?,921
+lcm,279,120,What is the LCM of 279 and 120 mod 1000?,160
+addition,669,154,What is 669 plus 154?,823
+bitwise_xor,167,827,What is 167 XOR 827?,924
+square_mod,821,221,What is 821^2 mod 221?,212
+division,422,258,What is 422 // 258?,1
+bitwise_xor,100,111,What is 100 XOR 111?,11
+division,617,539,What is 617 // 539?,1
+division,916,286,What is 916 // 286?,3
+division,530,287,What is 530 // 287?,1
+multiplication,998,795,What is 998 times 795 mod 1000?,410
+modulo,398,161,What is 398 mod 161?,76
+addition,408,768,What is 408 plus 768?,1176
+gcd,862,759,What is the GCD of 862 and 759?,1
+division,429,316,What is 429 // 316?,1
+multiplication,221,321,What is 221 times 321 mod 1000?,941
+gcd,900,233,What is the GCD of 900 and 233?,1
+lcm,84,880,What is the LCM of 84 and 880 mod 1000?,480
+multiplication,265,527,What is 265 times 527 mod 1000?,655
+bitwise_or,690,682,What is 690 OR 682?,698
+gcd,661,575,What is the GCD of 661 and 575?,1
+bitwise_or,432,190,What is 432 OR 190?,446
+bitwise_xor,527,882,What is 527 XOR 882?,381
+multiplication,903,601,What is 903 times 601 mod 1000?,703
+bitwise_or,324,490,What is 324 OR 490?,494
+addition,42,404,What is 42 plus 404?,446
+division,973,374,What is 973 // 374?,2
+multiplication,837,184,What is 837 times 184 mod 1000?,8
+addition,964,189,What is 964 plus 189?,1153
+bitwise_and,267,604,What is 267 AND 604?,8
+addition,277,480,What is 277 plus 480?,757
+multiplication,105,777,What is 105 times 777 mod 1000?,585
+multiplication,268,318,What is 268 times 318 mod 1000?,224
+lcm,819,401,What is the LCM of 819 and 401 mod 1000?,419
+modulo,606,61,What is 606 mod 61?,57
+multiplication,751,403,What is 751 times 403 mod 1000?,653
+modulo,944,460,What is 944 mod 460?,24
+modulo,550,503,What is 550 mod 503?,47
+multiplication,460,726,What is 460 times 726 mod 1000?,960
+bitwise_or,567,929,What is 567 OR 929?,951
+bitwise_or,294,946,What is 294 OR 946?,950
+bitwise_or,215,114,What is 215 OR 114?,247
+gcd,526,508,What is the GCD of 526 and 508?,2
+bitwise_and,44,824,What is 44 AND 824?,40
+division,982,198,What is 982 // 198?,4
+multiplication,579,723,What is 579 times 723 mod 1000?,617
+gcd,986,159,What is the GCD of 986 and 159?,1
+bitwise_and,819,341,What is 819 AND 341?,273
+gcd,285,317,What is the GCD of 285 and 317?,1
+division,693,291,What is 693 // 291?,2
+gcd,590,16,What is the GCD of 590 and 16?,2
+bitwise_xor,746,910,What is 746 XOR 910?,356
+addition,175,876,What is 175 plus 876?,1051
+bitwise_and,336,656,What is 336 AND 656?,16
+division,642,597,What is 642 // 597?,1
+bitwise_xor,515,873,What is 515 XOR 873?,362
+bitwise_or,526,444,What is 526 OR 444?,958
+modulo,377,316,What is 377 mod 316?,61
+multiplication,255,50,What is 255 times 50 mod 1000?,750
+square_mod,935,716,What is 935^2 mod 716?,705
+lcm,501,72,What is the LCM of 501 and 72 mod 1000?,24
+division,963,929,What is 963 // 929?,1
+modulo,985,219,What is 985 mod 219?,109
+bitwise_or,573,677,What is 573 OR 677?,701
+modulo,951,565,What is 951 mod 565?,386
+bitwise_or,827,851,What is 827 OR 851?,891
+division,478,240,What is 478 // 240?,1
+multiplication,367,805,What is 367 times 805 mod 1000?,435
+modulo,921,138,What is 921 mod 138?,93
+bitwise_xor,341,476,What is 341 XOR 476?,137
+gcd,642,336,What is the GCD of 642 and 336?,6
+lcm,812,255,What is the LCM of 812 and 255 mod 1000?,60
+division,887,23,What is 887 // 23?,38
+modulo,471,172,What is 471 mod 172?,127
+division,570,281,What is 570 // 281?,2
+multiplication,667,871,What is 667 times 871 mod 1000?,957
+bitwise_xor,472,260,What is 472 XOR 260?,220
+square_mod,541,348,What is 541^2 mod 348?,13
+gcd,165,115,What is the GCD of 165 and 115?,5
+lcm,597,925,What is the LCM of 597 and 925 mod 1000?,225
+square_mod,394,36,What is 394^2 mod 36?,4
+gcd,132,249,What is the GCD of 132 and 249?,3
+bitwise_or,963,410,What is 963 OR 410?,987
+square_mod,779,549,What is 779^2 mod 549?,196
+multiplication,217,204,What is 217 times 204 mod 1000?,268
+division,282,213,What is 282 // 213?,1
+modulo,817,732,What is 817 mod 732?,85
+gcd,494,535,What is the GCD of 494 and 535?,1
+bitwise_xor,858,265,What is 858 XOR 265?,595
+division,703,537,What is 703 // 537?,1
+addition,507,288,What is 507 plus 288?,795
+bitwise_xor,267,368,What is 267 XOR 368?,123
+division,546,478,What is 546 // 478?,1
+modulo,743,319,What is 743 mod 319?,105
+multiplication,311,74,What is 311 times 74 mod 1000?,14
+gcd,242,906,What is the GCD of 242 and 906?,2
+division,655,94,What is 655 // 94?,6
+division,912,470,What is 912 // 470?,1
+square_mod,863,798,What is 863^2 mod 798?,235
+bitwise_or,492,178,What is 492 OR 178?,510
+square_mod,248,168,What is 248^2 mod 168?,16
+modulo,914,871,What is 914 mod 871?,43
+modulo,32,10,What is 32 mod 10?,2
+addition,429,718,What is 429 plus 718?,1147
+bitwise_and,654,565,What is 654 AND 565?,516
+bitwise_and,687,394,What is 687 AND 394?,138
+square_mod,417,326,What is 417^2 mod 326?,131
+modulo,854,820,What is 854 mod 820?,34
+bitwise_and,955,403,What is 955 AND 403?,403
+addition,579,559,What is 579 plus 559?,1138
+addition,182,382,What is 182 plus 382?,564
+lcm,958,937,What is the LCM of 958 and 937 mod 1000?,646
+bitwise_xor,536,847,What is 536 XOR 847?,343
+modulo,589,264,What is 589 mod 264?,61
+gcd,893,374,What is the GCD of 893 and 374?,1
+multiplication,6,380,What is 6 times 380 mod 1000?,280
+gcd,119,70,What is the GCD of 119 and 70?,7
+bitwise_or,692,1,What is 692 OR 1?,693
+gcd,202,268,What is the GCD of 202 and 268?,2
+bitwise_xor,309,435,What is 309 XOR 435?,134
+square_mod,598,161,What is 598^2 mod 161?,23
+bitwise_xor,63,934,What is 63 XOR 934?,921
+lcm,989,962,What is the LCM of 989 and 962 mod 1000?,418
+bitwise_xor,920,178,What is 920 XOR 178?,810
+division,270,98,What is 270 // 98?,2
+modulo,916,6,What is 916 mod 6?,4
+modulo,866,461,What is 866 mod 461?,405
+modulo,685,369,What is 685 mod 369?,316
+addition,664,309,What is 664 plus 309?,973
+bitwise_or,185,947,What is 185 OR 947?,955
+square_mod,423,325,What is 423^2 mod 325?,179
+gcd,915,228,What is the GCD of 915 and 228?,3
+bitwise_xor,336,588,What is 336 XOR 588?,796
+bitwise_or,297,649,What is 297 OR 649?,937
+gcd,983,921,What is the GCD of 983 and 921?,1
+division,841,142,What is 841 // 142?,5
+division,578,557,What is 578 // 557?,1
+square_mod,797,413,What is 797^2 mod 413?,15
+lcm,86,744,What is the LCM of 86 and 744 mod 1000?,992
+gcd,994,583,What is the GCD of 994 and 583?,1
+bitwise_or,737,341,What is 737 OR 341?,1013
+bitwise_xor,573,360,What is 573 XOR 360?,853
+division,737,645,What is 737 // 645?,1
+addition,475,493,What is 475 plus 493?,968
+lcm,874,667,What is the LCM of 874 and 667 mod 1000?,346
+gcd,498,663,What is the GCD of 498 and 663?,3
+bitwise_or,757,130,What is 757 OR 130?,759
+bitwise_or,616,880,What is 616 OR 880?,888
+bitwise_xor,702,91,What is 702 XOR 91?,741
+modulo,943,907,What is 943 mod 907?,36
+modulo,960,592,What is 960 mod 592?,368
+addition,57,394,What is 57 plus 394?,451
+bitwise_xor,187,704,What is 187 XOR 704?,635
+bitwise_xor,261,53,What is 261 XOR 53?,304
+modulo,662,430,What is 662 mod 430?,232
+addition,635,411,What is 635 plus 411?,1046
+gcd,9,765,What is the GCD of 9 and 765?,9
+addition,686,751,What is 686 plus 751?,1437
+multiplication,658,162,What is 658 times 162 mod 1000?,596
+modulo,468,143,What is 468 mod 143?,39
+multiplication,496,640,What is 496 times 640 mod 1000?,440
+addition,857,359,What is 857 plus 359?,1216
+gcd,936,607,What is the GCD of 936 and 607?,1
+square_mod,613,573,What is 613^2 mod 573?,454
+addition,939,407,What is 939 plus 407?,1346
+gcd,560,263,What is the GCD of 560 and 263?,1
+square_mod,875,396,What is 875^2 mod 396?,157
+addition,806,673,What is 806 plus 673?,1479
+modulo,413,121,What is 413 mod 121?,50
+modulo,322,4,What is 322 mod 4?,2
+bitwise_or,633,425,What is 633 OR 425?,1017
+bitwise_and,584,926,What is 584 AND 926?,520
+addition,987,900,What is 987 plus 900?,1887
+bitwise_or,429,74,What is 429 OR 74?,495
+modulo,358,281,What is 358 mod 281?,77
+square_mod,929,759,What is 929^2 mod 759?,58
+bitwise_or,105,687,What is 105 OR 687?,751
+gcd,238,183,What is the GCD of 238 and 183?,1
+bitwise_and,428,736,What is 428 AND 736?,160
+square_mod,729,179,What is 729^2 mod 179?,169
+division,912,763,What is 912 // 763?,1
+gcd,948,82,What is the GCD of 948 and 82?,2
+addition,613,427,What is 613 plus 427?,1040
+multiplication,964,733,What is 964 times 733 mod 1000?,612
+bitwise_and,693,320,What is 693 AND 320?,0
+square_mod,963,355,What is 963^2 mod 355?,109
+addition,961,884,What is 961 plus 884?,1845
+multiplication,735,897,What is 735 times 897 mod 1000?,295
+gcd,539,686,What is the GCD of 539 and 686?,49
+modulo,632,66,What is 632 mod 66?,38
+multiplication,30,88,What is 30 times 88 mod 1000?,640
+multiplication,708,550,What is 708 times 550 mod 1000?,400
+gcd,429,280,What is the GCD of 429 and 280?,1
+addition,847,183,What is 847 plus 183?,1030
+modulo,378,240,What is 378 mod 240?,138
+division,323,271,What is 323 // 271?,1
+division,602,77,What is 602 // 77?,7
+modulo,833,607,What is 833 mod 607?,226
+division,877,639,What is 877 // 639?,1
+square_mod,792,310,What is 792^2 mod 310?,134
+modulo,661,249,What is 661 mod 249?,163
+modulo,946,941,What is 946 mod 941?,5
+bitwise_and,508,856,What is 508 AND 856?,344
+multiplication,85,710,What is 85 times 710 mod 1000?,350
+gcd,734,504,What is the GCD of 734 and 504?,2
+bitwise_and,530,970,What is 530 AND 970?,514
+square_mod,441,18,What is 441^2 mod 18?,9
+modulo,875,352,What is 875 mod 352?,171
+bitwise_or,48,471,What is 48 OR 471?,503
+bitwise_or,677,708,What is 677 OR 708?,741
+bitwise_and,640,628,What is 640 AND 628?,512
+modulo,851,289,What is 851 mod 289?,273
+bitwise_xor,951,272,What is 951 XOR 272?,679
+modulo,642,277,What is 642 mod 277?,88
+bitwise_xor,455,335,What is 455 XOR 335?,136
+bitwise_and,195,900,What is 195 AND 900?,128
+bitwise_or,930,311,What is 930 OR 311?,951
+division,378,234,What is 378 // 234?,1
+square_mod,226,2,What is 226^2 mod 2?,0
+bitwise_or,319,466,What is 319 OR 466?,511
+bitwise_and,96,628,What is 96 AND 628?,96
+modulo,477,376,What is 477 mod 376?,101
+bitwise_and,976,929,What is 976 AND 929?,896
+addition,985,661,What is 985 plus 661?,1646
+gcd,717,811,What is the GCD of 717 and 811?,1
+gcd,368,232,What is the GCD of 368 and 232?,8
+bitwise_or,75,634,What is 75 OR 634?,635
+addition,2,63,What is 2 plus 63?,65
+multiplication,762,502,What is 762 times 502 mod 1000?,524
+gcd,758,220,What is the GCD of 758 and 220?,2
+bitwise_or,36,742,What is 36 OR 742?,742
+lcm,669,102,What is the LCM of 669 and 102 mod 1000?,746
+square_mod,913,153,What is 913^2 mod 153?,25
+bitwise_xor,703,539,What is 703 XOR 539?,164
+addition,348,767,What is 348 plus 767?,1115
+lcm,536,881,What is the LCM of 536 and 881 mod 1000?,216
+addition,204,335,What is 204 plus 335?,539
+modulo,696,20,What is 696 mod 20?,16
+bitwise_xor,509,777,What is 509 XOR 777?,756
+square_mod,857,796,What is 857^2 mod 796?,537
+multiplication,921,13,What is 921 times 13 mod 1000?,973
+gcd,102,224,What is the GCD of 102 and 224?,2
+bitwise_or,508,225,What is 508 OR 225?,509
+division,687,642,What is 687 // 642?,1
+bitwise_or,640,396,What is 640 OR 396?,908
+division,251,127,What is 251 // 127?,1
+multiplication,708,167,What is 708 times 167 mod 1000?,236
+lcm,787,101,What is the LCM of 787 and 101 mod 1000?,487
+bitwise_and,782,773,What is 782 AND 773?,772
+addition,563,291,What is 563 plus 291?,854
+gcd,154,317,What is the GCD of 154 and 317?,1
+bitwise_or,541,335,What is 541 OR 335?,863
+gcd,56,791,What is the GCD of 56 and 791?,7
+bitwise_or,609,608,What is 609 OR 608?,609
+addition,191,303,What is 191 plus 303?,494
+square_mod,865,9,What is 865^2 mod 9?,1
+bitwise_xor,799,674,What is 799 XOR 674?,445
+addition,14,2,What is 14 plus 2?,16
+modulo,744,22,What is 744 mod 22?,18
+bitwise_and,858,847,What is 858 AND 847?,842
+bitwise_and,743,760,What is 743 AND 760?,736
+gcd,826,447,What is the GCD of 826 and 447?,1
+division,854,397,What is 854 // 397?,2
+gcd,838,578,What is the GCD of 838 and 578?,2
+bitwise_or,121,229,What is 121 OR 229?,253
+lcm,320,418,What is the LCM of 320 and 418 mod 1000?,880
+modulo,581,515,What is 581 mod 515?,66
+square_mod,877,10,What is 877^2 mod 10?,9
+lcm,651,741,What is the LCM of 651 and 741 mod 1000?,797
+modulo,959,304,What is 959 mod 304?,47
+bitwise_or,924,931,What is 924 OR 931?,959
+modulo,856,149,What is 856 mod 149?,111
+division,872,353,What is 872 // 353?,2
+addition,364,147,What is 364 plus 147?,511
+bitwise_and,523,387,What is 523 AND 387?,3
+lcm,433,777,What is the LCM of 433 and 777 mod 1000?,441
+bitwise_and,637,917,What is 637 AND 917?,533
+division,900,104,What is 900 // 104?,8
+square_mod,872,15,What is 872^2 mod 15?,4
+bitwise_or,307,414,What is 307 OR 414?,447
+multiplication,86,167,What is 86 times 167 mod 1000?,362
+division,831,96,What is 831 // 96?,8
+multiplication,20,61,What is 20 times 61 mod 1000?,220
+bitwise_or,898,466,What is 898 OR 466?,978
+modulo,342,106,What is 342 mod 106?,24
+division,865,468,What is 865 // 468?,1
+addition,895,2,What is 895 plus 2?,897
+lcm,331,507,What is the LCM of 331 and 507 mod 1000?,817
+gcd,713,945,What is the GCD of 713 and 945?,1
+lcm,419,522,What is the LCM of 419 and 522 mod 1000?,718
+division,116,111,What is 116 // 111?,1
+gcd,798,294,What is the GCD of 798 and 294?,42
+bitwise_or,246,228,What is 246 OR 228?,246
+modulo,305,291,What is 305 mod 291?,14
+bitwise_and,364,346,What is 364 AND 346?,328
+bitwise_and,11,459,What is 11 AND 459?,11
+bitwise_xor,100,138,What is 100 XOR 138?,238
+gcd,215,858,What is the GCD of 215 and 858?,1
+square_mod,910,606,What is 910^2 mod 606?,304
+lcm,234,714,What is the LCM of 234 and 714 mod 1000?,846
+lcm,245,325,What is the LCM of 245 and 325 mod 1000?,925
+division,970,721,What is 970 // 721?,1
+square_mod,716,401,What is 716^2 mod 401?,178
+multiplication,856,648,What is 856 times 648 mod 1000?,688
+lcm,352,911,What is the LCM of 352 and 911 mod 1000?,672
+bitwise_or,145,904,What is 145 OR 904?,921
+bitwise_and,860,825,What is 860 AND 825?,792
+bitwise_or,941,960,What is 941 OR 960?,1005
+gcd,643,213,What is the GCD of 643 and 213?,1
+multiplication,883,535,What is 883 times 535 mod 1000?,405
+division,694,31,What is 694 // 31?,22
+division,473,141,What is 473 // 141?,3
+gcd,367,179,What is the GCD of 367 and 179?,1
+gcd,878,599,What is the GCD of 878 and 599?,1
+square_mod,601,33,What is 601^2 mod 33?,16
+square_mod,469,86,What is 469^2 mod 86?,59
+multiplication,605,461,What is 605 times 461 mod 1000?,905
+modulo,759,663,What is 759 mod 663?,96
+multiplication,630,235,What is 630 times 235 mod 1000?,50
+modulo,746,251,What is 746 mod 251?,244
+bitwise_and,111,117,What is 111 AND 117?,101
+gcd,415,766,What is the GCD of 415 and 766?,1
+bitwise_or,376,553,What is 376 OR 553?,889
+bitwise_and,792,439,What is 792 AND 439?,272
+bitwise_and,697,76,What is 697 AND 76?,8
+bitwise_or,663,3,What is 663 OR 3?,663
+bitwise_xor,479,800,What is 479 XOR 800?,767
+modulo,677,113,What is 677 mod 113?,112
+lcm,158,708,What is the LCM of 158 and 708 mod 1000?,932
+division,576,413,What is 576 // 413?,1
+multiplication,621,791,What is 621 times 791 mod 1000?,211
+square_mod,703,631,What is 703^2 mod 631?,136
+bitwise_or,750,240,What is 750 OR 240?,766
+multiplication,804,56,What is 804 times 56 mod 1000?,24
+bitwise_and,642,90,What is 642 AND 90?,2
+bitwise_and,459,924,What is 459 AND 924?,392
+bitwise_or,244,946,What is 244 OR 946?,1014
+gcd,298,652,What is the GCD of 298 and 652?,2
+gcd,437,439,What is the GCD of 437 and 439?,1
+multiplication,553,456,What is 553 times 456 mod 1000?,168
+multiplication,349,160,What is 349 times 160 mod 1000?,840
+square_mod,441,167,What is 441^2 mod 167?,93
+lcm,875,667,What is the LCM of 875 and 667 mod 1000?,625
+modulo,357,256,What is 357 mod 256?,101
+addition,652,888,What is 652 plus 888?,1540
+addition,237,687,What is 237 plus 687?,924
+bitwise_xor,912,971,What is 912 XOR 971?,91
+division,466,151,What is 466 // 151?,3
+lcm,183,940,What is the LCM of 183 and 940 mod 1000?,20
+bitwise_and,807,927,What is 807 AND 927?,775
+bitwise_and,803,691,What is 803 AND 691?,547
+bitwise_xor,100,47,What is 100 XOR 47?,75
+multiplication,27,973,What is 27 times 973 mod 1000?,271
+multiplication,508,436,What is 508 times 436 mod 1000?,488
+gcd,456,738,What is the GCD of 456 and 738?,6
+lcm,260,55,What is the LCM of 260 and 55 mod 1000?,860
+multiplication,902,953,What is 902 times 953 mod 1000?,606
+bitwise_or,769,920,What is 769 OR 920?,921
+bitwise_or,815,899,What is 815 OR 899?,943
+bitwise_and,548,566,What is 548 AND 566?,548
+modulo,647,218,What is 647 mod 218?,211
+square_mod,588,455,What is 588^2 mod 455?,399
+bitwise_and,680,56,What is 680 AND 56?,40
+bitwise_xor,636,387,What is 636 XOR 387?,1023
+modulo,992,331,What is 992 mod 331?,330
+square_mod,679,617,What is 679^2 mod 617?,142
+multiplication,807,828,What is 807 times 828 mod 1000?,196
+square_mod,746,380,What is 746^2 mod 380?,196
+multiplication,102,851,What is 102 times 851 mod 1000?,802
+multiplication,921,576,What is 921 times 576 mod 1000?,496
+modulo,672,477,What is 672 mod 477?,195
+lcm,206,3,What is the LCM of 206 and 3 mod 1000?,618
+addition,134,842,What is 134 plus 842?,976
+lcm,880,572,What is the LCM of 880 and 572 mod 1000?,440
+bitwise_or,390,651,What is 390 OR 651?,911
+bitwise_or,211,296,What is 211 OR 296?,507
+bitwise_xor,927,989,What is 927 XOR 989?,66
+bitwise_or,192,737,What is 192 OR 737?,737
+square_mod,597,583,What is 597^2 mod 583?,196
+multiplication,922,921,What is 922 times 921 mod 1000?,162
+gcd,760,775,What is the GCD of 760 and 775?,5
+square_mod,656,36,What is 656^2 mod 36?,28
+bitwise_or,576,835,What is 576 OR 835?,835
+multiplication,964,77,What is 964 times 77 mod 1000?,228
+lcm,542,776,What is the LCM of 542 and 776 mod 1000?,296
+modulo,831,114,What is 831 mod 114?,33
+division,545,74,What is 545 // 74?,7
+multiplication,752,64,What is 752 times 64 mod 1000?,128
+bitwise_and,679,568,What is 679 AND 568?,544
+bitwise_or,559,856,What is 559 OR 856?,895
+addition,445,782,What is 445 plus 782?,1227
+bitwise_xor,367,943,What is 367 XOR 943?,704
+division,971,646,What is 971 // 646?,1
+bitwise_xor,269,15,What is 269 XOR 15?,258
+square_mod,315,92,What is 315^2 mod 92?,49
+division,915,872,What is 915 // 872?,1
+bitwise_xor,112,464,What is 112 XOR 464?,416
+addition,867,456,What is 867 plus 456?,1323
+bitwise_and,429,271,What is 429 AND 271?,269
+modulo,929,461,What is 929 mod 461?,7
+bitwise_or,580,648,What is 580 OR 648?,716
+bitwise_or,431,53,What is 431 OR 53?,447
+gcd,763,218,What is the GCD of 763 and 218?,109
+addition,340,774,What is 340 plus 774?,1114
+lcm,101,52,What is the LCM of 101 and 52 mod 1000?,252
+bitwise_and,2,672,What is 2 AND 672?,0
+bitwise_or,855,674,What is 855 OR 674?,1015
+bitwise_xor,658,109,What is 658 XOR 109?,767
+division,840,447,What is 840 // 447?,1
+multiplication,187,329,What is 187 times 329 mod 1000?,523
+bitwise_or,18,585,What is 18 OR 585?,603
+addition,750,635,What is 750 plus 635?,1385
+bitwise_xor,180,729,What is 180 XOR 729?,621
+gcd,541,874,What is the GCD of 541 and 874?,1
+gcd,841,625,What is the GCD of 841 and 625?,1
+multiplication,107,202,What is 107 times 202 mod 1000?,614
+bitwise_or,494,758,What is 494 OR 758?,1022
+bitwise_and,233,108,What is 233 AND 108?,104
+square_mod,98,84,What is 98^2 mod 84?,28
+bitwise_and,411,897,What is 411 AND 897?,385
+bitwise_or,249,712,What is 249 OR 712?,761
+modulo,423,404,What is 423 mod 404?,19
+gcd,289,393,What is the GCD of 289 and 393?,1
+lcm,946,745,What is the LCM of 946 and 745 mod 1000?,770
+multiplication,295,261,What is 295 times 261 mod 1000?,995
+multiplication,326,8,What is 326 times 8 mod 1000?,608
+multiplication,635,81,What is 635 times 81 mod 1000?,435
+square_mod,325,219,What is 325^2 mod 219?,67
+modulo,585,412,What is 585 mod 412?,173
+lcm,389,757,What is the LCM of 389 and 757 mod 1000?,473
+bitwise_xor,812,808,What is 812 XOR 808?,4
+bitwise_xor,267,14,What is 267 XOR 14?,261
+bitwise_xor,315,306,What is 315 XOR 306?,9
+multiplication,527,283,What is 527 times 283 mod 1000?,141
+bitwise_xor,314,133,What is 314 XOR 133?,447
+division,670,578,What is 670 // 578?,1
+multiplication,889,674,What is 889 times 674 mod 1000?,186
+modulo,828,509,What is 828 mod 509?,319
+division,779,734,What is 779 // 734?,1
+multiplication,712,173,What is 712 times 173 mod 1000?,176
+square_mod,938,21,What is 938^2 mod 21?,7
+addition,381,826,What is 381 plus 826?,1207
+gcd,720,448,What is the GCD of 720 and 448?,16
+square_mod,447,192,What is 447^2 mod 192?,129
+gcd,732,372,What is the GCD of 732 and 372?,12
+square_mod,848,68,What is 848^2 mod 68?,4
+multiplication,911,158,What is 911 times 158 mod 1000?,938
+modulo,578,225,What is 578 mod 225?,128
+bitwise_or,357,217,What is 357 OR 217?,509
+addition,152,766,What is 152 plus 766?,918
+gcd,888,54,What is the GCD of 888 and 54?,6
+lcm,89,154,What is the LCM of 89 and 154 mod 1000?,706
+square_mod,857,383,What is 857^2 mod 383?,238
+bitwise_xor,528,452,What is 528 XOR 452?,980
+multiplication,768,475,What is 768 times 475 mod 1000?,800
+bitwise_xor,887,32,What is 887 XOR 32?,855
+addition,867,682,What is 867 plus 682?,1549
+division,647,593,What is 647 // 593?,1
+bitwise_and,840,81,What is 840 AND 81?,64
+bitwise_xor,633,758,What is 633 XOR 758?,143
+gcd,899,720,What is the GCD of 899 and 720?,1
+gcd,222,510,What is the GCD of 222 and 510?,6
+multiplication,362,63,What is 362 times 63 mod 1000?,806
+lcm,471,618,What is the LCM of 471 and 618 mod 1000?,26
+square_mod,534,245,What is 534^2 mod 245?,221
+bitwise_and,856,451,What is 856 AND 451?,320
+bitwise_xor,799,185,What is 799 XOR 185?,934
+multiplication,454,62,What is 454 times 62 mod 1000?,148
+bitwise_xor,563,680,What is 563 XOR 680?,155
+lcm,562,280,What is the LCM of 562 and 280 mod 1000?,680
+modulo,320,17,What is 320 mod 17?,14
+bitwise_and,162,251,What is 162 AND 251?,162
+bitwise_or,27,773,What is 27 OR 773?,799
+gcd,626,17,What is the GCD of 626 and 17?,1
+modulo,344,340,What is 344 mod 340?,4
+gcd,914,732,What is the GCD of 914 and 732?,2
+multiplication,918,278,What is 918 times 278 mod 1000?,204
+lcm,884,348,What is the LCM of 884 and 348 mod 1000?,908
+multiplication,423,865,What is 423 times 865 mod 1000?,895
+lcm,943,761,What is the LCM of 943 and 761 mod 1000?,623
+bitwise_xor,232,1,What is 232 XOR 1?,233
+square_mod,432,199,What is 432^2 mod 199?,161
+bitwise_and,151,496,What is 151 AND 496?,144
+square_mod,584,437,What is 584^2 mod 437?,196
+division,850,89,What is 850 // 89?,9
+gcd,866,561,What is the GCD of 866 and 561?,1
+bitwise_xor,721,366,What is 721 XOR 366?,959
+addition,504,282,What is 504 plus 282?,786
+multiplication,311,239,What is 311 times 239 mod 1000?,329
+lcm,511,793,What is the LCM of 511 and 793 mod 1000?,223
+addition,35,683,What is 35 plus 683?,718
+division,954,103,What is 954 // 103?,9
+square_mod,989,679,What is 989^2 mod 679?,361
+square_mod,118,85,What is 118^2 mod 85?,69
+multiplication,801,310,What is 801 times 310 mod 1000?,310
+gcd,566,681,What is the GCD of 566 and 681?,1
+gcd,699,226,What is the GCD of 699 and 226?,1
+addition,618,58,What is 618 plus 58?,676
+square_mod,484,304,What is 484^2 mod 304?,176
+square_mod,912,826,What is 912^2 mod 826?,788
+addition,927,210,What is 927 plus 210?,1137
+square_mod,876,575,What is 876^2 mod 575?,326
+bitwise_xor,218,374,What is 218 XOR 374?,428
+bitwise_and,706,348,What is 706 AND 348?,64
+modulo,844,219,What is 844 mod 219?,187
+multiplication,407,556,What is 407 times 556 mod 1000?,292
+bitwise_or,686,325,What is 686 OR 325?,1007
+bitwise_and,597,960,What is 597 AND 960?,576
+lcm,137,963,What is the LCM of 137 and 963 mod 1000?,931
+addition,569,454,What is 569 plus 454?,1023
+bitwise_and,531,239,What is 531 AND 239?,3
+bitwise_or,340,768,What is 340 OR 768?,852
+bitwise_or,923,795,What is 923 OR 795?,923
+square_mod,669,533,What is 669^2 mod 533?,374
+division,781,115,What is 781 // 115?,6
+division,933,241,What is 933 // 241?,3
+multiplication,62,478,What is 62 times 478 mod 1000?,636
+bitwise_xor,118,476,What is 118 XOR 476?,426
+modulo,825,186,What is 825 mod 186?,81
+square_mod,665,206,What is 665^2 mod 206?,149
+square_mod,539,1,What is 539^2 mod 1?,0
+modulo,171,33,What is 171 mod 33?,6
+bitwise_or,340,767,What is 340 OR 767?,1023
+multiplication,969,145,What is 969 times 145 mod 1000?,505
+lcm,21,305,What is the LCM of 21 and 305 mod 1000?,405
+modulo,773,717,What is 773 mod 717?,56
+lcm,299,508,What is the LCM of 299 and 508 mod 1000?,892
+bitwise_and,319,548,What is 319 AND 548?,36
+modulo,694,549,What is 694 mod 549?,145
+bitwise_and,236,799,What is 236 AND 799?,12
+division,254,155,What is 254 // 155?,1
+modulo,164,91,What is 164 mod 91?,73
+division,468,201,What is 468 // 201?,2
+bitwise_xor,328,697,What is 328 XOR 697?,1009
+multiplication,164,959,What is 164 times 959 mod 1000?,276
+square_mod,925,42,What is 925^2 mod 42?,1
+square_mod,573,480,What is 573^2 mod 480?,9
+lcm,60,457,What is the LCM of 60 and 457 mod 1000?,420
+bitwise_and,189,319,What is 189 AND 319?,61
+bitwise_xor,82,796,What is 82 XOR 796?,846
+gcd,62,499,What is the GCD of 62 and 499?,1
+addition,283,779,What is 283 plus 779?,1062
+addition,646,647,What is 646 plus 647?,1293
+modulo,628,123,What is 628 mod 123?,13
+multiplication,651,464,What is 651 times 464 mod 1000?,64
+multiplication,980,884,What is 980 times 884 mod 1000?,320
+square_mod,844,376,What is 844^2 mod 376?,192
+modulo,855,519,What is 855 mod 519?,336
+gcd,279,363,What is the GCD of 279 and 363?,3
+addition,175,660,What is 175 plus 660?,835
+addition,60,351,What is 60 plus 351?,411
+square_mod,415,315,What is 415^2 mod 315?,235
+bitwise_xor,918,125,What is 918 XOR 125?,1003
+lcm,696,453,What is the LCM of 696 and 453 mod 1000?,96
+bitwise_xor,450,501,What is 450 XOR 501?,55
+square_mod,999,483,What is 999^2 mod 483?,123
+lcm,268,269,What is the LCM of 268 and 269 mod 1000?,92
+division,910,66,What is 910 // 66?,13
+lcm,690,507,What is the LCM of 690 and 507 mod 1000?,610
+multiplication,340,822,What is 340 times 822 mod 1000?,480
+bitwise_or,957,43,What is 957 OR 43?,959
+addition,424,839,What is 424 plus 839?,1263
+addition,350,622,What is 350 plus 622?,972
+lcm,528,540,What is the LCM of 528 and 540 mod 1000?,760
+bitwise_xor,119,982,What is 119 XOR 982?,929
+gcd,702,289,What is the GCD of 702 and 289?,1
+modulo,166,154,What is 166 mod 154?,12
+square_mod,982,110,What is 982^2 mod 110?,64
+gcd,399,706,What is the GCD of 399 and 706?,1
+modulo,992,674,What is 992 mod 674?,318
+bitwise_or,506,56,What is 506 OR 56?,506
+gcd,398,330,What is the GCD of 398 and 330?,2
+division,532,520,What is 532 // 520?,1
+bitwise_xor,883,149,What is 883 XOR 149?,998
+square_mod,918,543,What is 918^2 mod 543?,531
+bitwise_xor,798,928,What is 798 XOR 928?,190
+addition,711,282,What is 711 plus 282?,993
+modulo,649,511,What is 649 mod 511?,138
+multiplication,818,601,What is 818 times 601 mod 1000?,618
+multiplication,642,922,What is 642 times 922 mod 1000?,924
+square_mod,524,8,What is 524^2 mod 8?,0
+bitwise_xor,678,230,What is 678 XOR 230?,576
+gcd,820,906,What is the GCD of 820 and 906?,2
+lcm,717,485,What is the LCM of 717 and 485 mod 1000?,745
+bitwise_xor,818,820,What is 818 XOR 820?,6
+division,772,304,What is 772 // 304?,2
+addition,371,329,What is 371 plus 329?,700
+lcm,572,811,What is the LCM of 572 and 811 mod 1000?,892
+bitwise_xor,155,283,What is 155 XOR 283?,384
+addition,872,918,What is 872 plus 918?,1790
+modulo,907,754,What is 907 mod 754?,153
+addition,329,815,What is 329 plus 815?,1144
+square_mod,829,737,What is 829^2 mod 737?,357
+bitwise_and,907,489,What is 907 AND 489?,393
+bitwise_and,732,436,What is 732 AND 436?,148
+bitwise_xor,922,895,What is 922 XOR 895?,229
