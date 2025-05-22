@@ -47,6 +47,9 @@ def parse_args(cli_args: Optional[List[str]] = None) -> argparse.Namespace:
     # data generation
     p.add_argument("--possible_problems", nargs="+",
                    default=defaults.get("possible_problems"))
+    p.add_argument("--problem_types_training", nargs="+",
+                   default=defaults.get("problem_types_training"))
+
     p.add_argument("--complexity", type=int, default=defaults.get("complexity"))
     p.add_argument("--n_samples_dataset", type=int,
                    default=defaults.get("n_samples_dataset"))
@@ -64,6 +67,10 @@ def parse_args(cli_args: Optional[List[str]] = None) -> argparse.Namespace:
                    default=defaults.get("limit_solution_digits"))
     p.add_argument("--modify_question_format", type=str2bool,
                    default=defaults.get("modify_question_format"))
+
+    p.add_argument("--x_gt_y", type=str2bool,
+                   default=defaults.get("x_gt_y", False),
+                   help="If true, enforce x > y for ALL generated pairs")
 
     p.add_argument("--seed", type=int, default=defaults.get("seed"))
     return p.parse_args(remaining if cli_args is None else cli_args)
@@ -273,18 +280,24 @@ def build_dataset(
     limit_solution_digits: bool,
     modify_question_format: bool,
     seed: int,
+    x_gt_y: bool,
 ) -> pd.DataFrame:
     rng   = np.random.default_rng(seed)
     mod   = 10 ** (complexity + 1)
     n_max = mod - 1
 
     allowed = possible_problems
-    half  = n_max * (n_max - 1) // 2
-    equal = n_max
-    cap   = sum((half + equal) if p in _COMMUTATIVE else half for p in allowed)
+    half  = n_max * (n_max - 1) // 2      # count of strict‑ordered pairs
+    equal = n_max                         # count of x==y pairs
+
+    # capacity accounting
+    if x_gt_y:
+        cap = len(allowed) * half
+    else:
+        cap = sum((half + equal) if p in _COMMUTATIVE else half for p in allowed)
+
     if samples > cap:
         raise ValueError(f"Requested {samples:,} rows but only {cap:,} unique "
-
                          f"questions possible at this complexity.")
 
     seen: set[Tuple[str, int, int]] = set()
@@ -296,16 +309,31 @@ def build_dataset(
             x      = rng.integers(1, n_max + 1, size=k)
             y      = rng.integers(1, n_max + 1, size=k)
 
-            non_comm = ~np.isin(ptypes, list(_COMMUTATIVE))
-            swap     = non_comm & (x <= y)
-            x[swap], y[swap] = y[swap], x[swap]
-
-            equal_mask = non_comm & (x == y)
-            while equal_mask.any():
-                y[equal_mask] = rng.integers(1, n_max + 1, size=equal_mask.sum())
-                swap = equal_mask & (x <= y)
+            # ─── enforce ordering ──────────────────────────────────────
+            if x_gt_y:
+                swap = x <= y
                 x[swap], y[swap] = y[swap], x[swap]
+
+                # resample ties
+                equal_mask = x == y
+                while equal_mask.any():
+                    y[equal_mask] = rng.integers(1, n_max + 1, size=equal_mask.sum())
+                    swap = x <= y
+                    x[swap], y[swap] = y[swap], x[swap]
+                    equal_mask = x == y
+            else:
+                # original behaviour: only non‑commutative need ordering
+                non_comm = ~np.isin(ptypes, list(_COMMUTATIVE))
+                swap     = non_comm & (x <= y)
+                x[swap], y[swap] = y[swap], x[swap]
+
                 equal_mask = non_comm & (x == y)
+                while equal_mask.any():
+                    y[equal_mask] = rng.integers(1, n_max + 1, size=equal_mask.sum())
+                    swap = equal_mask & (x <= y)
+                    x[swap], y[swap] = y[swap], x[swap]
+                    equal_mask = non_comm & (x == y)
+            # ───────────────────────────────────────────────────────────
 
             sol_str = np.empty(k, dtype=object)
             for p in np.unique(ptypes):
@@ -314,8 +342,9 @@ def build_dataset(
 
             for i in range(k):
                 p = ptypes[i]
-                k1, k2 = (sorted((int(x[i]), int(y[i]))) if p in _COMMUTATIVE
-                          else (int(x[i]), int(y[i])))
+                k1, k2 = (sorted((int(x[i]), int(y[i])))
+                          if (not x_gt_y and p in _COMMUTATIVE) else
+                          (int(x[i]), int(y[i])))
                 if (p, k1, k2) in seen:
                     continue
                 seen.add((p, k1, k2))
@@ -335,24 +364,81 @@ def build_dataset(
                         columns=["problem_type", "x", "y", "question", "solution"])
 
 # ══════════════════════════════════════════════════════════════════════
-# 4. dataset split & IO utilities
+# 4. dataset split & IO utilities (unchanged)
 # ══════════════════════════════════════════════════════════════════════
 def split_dataset(df: pd.DataFrame,
                   train_n: int, val_n: int, test_n: int,
-                  seed: int) -> Tuple[pd.DataFrame, pd.DataFrame, pd.DataFrame]:
+                  seed: int,
+                  train_val_types: Optional[List[str]] = None
+) -> Tuple[pd.DataFrame, pd.DataFrame, pd.DataFrame]:
     rng = np.random.RandomState(seed)
-    perm = rng.permutation(df.index.to_numpy())
-    total_needed = train_n + val_n + test_n
-    if total_needed > len(perm):
-        raise ValueError("Not enough rows to satisfy requested split sizes.")
 
-    train_idx = perm[:train_n]
-    val_idx   = perm[train_n:train_n + val_n]
-    test_idx  = perm[train_n + val_n : train_n + val_n + test_n]
+    if train_val_types:                           # ← filter for train + val
+        pool = df[df["problem_type"].isin(train_val_types)]
+        if len(pool) < train_n + val_n:
+            raise ValueError(
+                f"Need {train_n + val_n} rows for training/validation "
+                f"but only {len(pool)} with problem types {train_val_types}."
+            )
+
+        perm_pool = rng.permutation(pool.index.to_numpy())
+        train_idx = perm_pool[:train_n]
+        val_idx   = perm_pool[train_n : train_n + val_n]
+
+        remaining = np.setdiff1d(df.index.to_numpy(),
+                                 np.concatenate([train_idx, val_idx]),
+                                 assume_unique=True)
+        if test_n > len(remaining):
+            raise ValueError("Not enough rows left for test split.")
+        rng.shuffle(remaining)
+        test_idx = remaining[:test_n]
+    else:                                         # original path
+        perm = rng.permutation(df.index.to_numpy())
+        total_needed = train_n + val_n + test_n
+        if total_needed > len(perm):
+            raise ValueError("Not enough rows to satisfy requested split sizes.")
+        train_idx = perm[:train_n]
+        val_idx   = perm[train_n:train_n + val_n]
+        test_idx  = perm[train_n + val_n : train_n + val_n + test_n]
 
     return (df.loc[train_idx].reset_index(drop=True),
             df.loc[val_idx  ].reset_index(drop=True),
             df.loc[test_idx ].reset_index(drop=True))
+
+def split_dataset_with_train_filter(
+    df: pd.DataFrame,
+    train_n: int,
+    val_n: int,
+    test_n: int,
+    train_types: List[str],
+    seed: int,
+) -> Tuple[pd.DataFrame, pd.DataFrame, pd.DataFrame]:
+    """Split so that *train* rows come only from `train_types`
+    while keeping the original split sizes fixed."""
+    rng = np.random.RandomState(seed)
+
+    # --- pick training rows from the allowed types -------------
+    train_pool = df[df["problem_type"].isin(train_types)]
+    if len(train_pool) < train_n:
+        raise ValueError(
+            f"Need {train_n} training rows, but only "
+            f"{len(train_pool)} available for {train_types}."
+        )
+    train_idx = rng.choice(train_pool.index.to_numpy(),
+                           size=train_n, replace=False)
+
+    # --- pick val / test from what remains ----------------------
+    remaining = np.setdiff1d(df.index.to_numpy(), train_idx, assume_unique=True)
+    if val_n + test_n > len(remaining):
+        raise ValueError("Not enough rows left for val+test splits.")
+
+    rng.shuffle(remaining)
+    val_idx  = remaining[:val_n]
+    test_idx = remaining[val_n : val_n + test_n]
+
+    return (df.loc[train_idx].reset_index(drop=True),
+            df.loc[val_idx ].reset_index(drop=True),
+            df.loc[test_idx].reset_index(drop=True))
 
 def build_dataset_paths(args) -> Tuple[Path, Path, Path, Path]:
     base = args.curr_dir + "/datasets/"
@@ -363,6 +449,10 @@ def build_dataset_paths(args) -> Tuple[Path, Path, Path, Path]:
         name += "_unlimited_solution_digits"
     if args.modify_question_format:
         name += "_random_question_format"
+    if args.x_gt_y:
+        name += "_x_gt_y"
+    if args.seed:
+        name += f"_seed_{args.seed}"
 
     all_path   = base + f"{name}_{args.n_samples_dataset}_samples.csv"
     train_path = base + f"{name}_{args.train_data_rounds}_training_samples.csv"
@@ -383,6 +473,9 @@ def save_if_missing(path: Path, df: pd.DataFrame) -> None:
 def main(cli_args: Optional[List[str]] = None) -> None:
     args = parse_args(cli_args)
 
+    if args.problem_types_training is None:
+        args.problem_types_training = args.possible_problems
+
     args.curr_dir = str(Path(args.curr_dir).expanduser())
 
     df = build_dataset(
@@ -393,11 +486,17 @@ def main(cli_args: Optional[List[str]] = None) -> None:
         limit_solution_digits=args.limit_solution_digits,
         modify_question_format=args.modify_question_format,
         seed=args.seed,
+        x_gt_y=args.x_gt_y,
     )
 
     df_train, df_val, df_test = split_dataset(
-        df, args.train_data_rounds, args.val_data_rounds,
-        args.test_data_rounds, args.seed)
+        df,
+        args.train_data_rounds,
+        args.val_data_rounds,
+        args.test_data_rounds,
+        args.seed,
+        train_val_types=args.problem_types_training,
+    )
 
     all_p, train_p, val_p, test_p = build_dataset_paths(args)
 

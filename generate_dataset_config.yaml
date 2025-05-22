@@ -13,11 +13,23 @@ possible_problems:
   - bitwise_and
   - bitwise_xor
   - bitwise_or
+problem_types_training:
+  - multiplication
+  - modulo
+  - gcd
+  - lcm
+  - square_mod
+  - bitwise_and
+  - bitwise_xor
+  - bitwise_or
 complexity: 2
 n_samples_dataset: 1000000
-train_data_rounds: 10000
-val_data_rounds  : 100
-test_data_rounds : 1000
-string_nums: False
-limit_solution_digits: True
-modify_question_format: False
+train_data_rounds: 20000
+val_data_rounds  : 200
+test_data_rounds : 2000
+string_nums: false
+limit_solution_digits: true
+modify_question_format: false
+
+x_gt_y: true
+seed: 0
