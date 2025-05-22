@@ -16,8 +16,15 @@ Flexible generator for arithmetic and symbolic-reasoning datasets, useful for tr
 **Install dependencies**
 
    ```bash
-   conda env create -f env_full.yml
+   conda env create -f environment.yml
    ```
+
+or 
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
 
 ## Generating the dataset
 
