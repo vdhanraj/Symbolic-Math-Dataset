@@ -19,6 +19,8 @@ Flexible generator for arithmetic and symbolic-reasoning datasets, useful for tr
    conda env create -f env_full.yml
    ```
 
+## Generating the dataset
+
 **Quick Start**
 
 Generate a dataset with default settings:
@@ -45,7 +47,7 @@ python generate.py \
 
 If an argument is omitted, its value comes from the YAML config.
 
-**Argument Reference**
+## Argument Reference
 
 | Argument                   | Description                                                                                     |
 | -------------------------- | ----------------------------------------------------------------------------------------------- |
@@ -65,7 +67,7 @@ If an argument is omitted, its value comes from the YAML config.
 | `--seed`                   | Random seed for reproducibility.                                                                |
 
 
-**License**
+## License
 
 This project is licensed under the Apache License. See the [LICENSE](./LICENSE) file for details.
 
